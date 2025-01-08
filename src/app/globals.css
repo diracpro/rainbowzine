@@ -1,0 +1,211 @@
+
+:root {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+  /* background-color: #181818;
+  color: rgba(255, 255, 255, 0.87);
+  color-scheme: light dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #f8f8f8;
+    color: #181818;
+  }
+} */
+body {
+  width: 100vw;
+  height: 300vh;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  /* background: linear-gradient(180deg, #40f, #05f); */
+}
+
+.wrapper {
+  width: 900px;
+  height: 700px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding-top: 13%;
+  /* background: linear-gradient(180deg, #60f, #65f); */
+  vertical-align: top;
+  align-items: center;
+}
+
+/* .container {
+  width: 1%;
+  height: 50%;
+  overflow: hidden;
+  padding-top: 2%;
+  border-radius: 10px;
+  vertical-align: middle;
+  align-items: center;
+} */
+.cloud {
+  width: 190px;
+  height: 300px;
+  background-image: url("https://newcryptorder.com/img/logos/WalletConnectClouds.svg");
+  background-repeat: no-repeat;
+}
+
+.cloud1 {
+  width: 30%;
+  height: 25%;
+  background-image: url("https://newcryptorder.com/img/logos/cloud1.svg");
+  background-repeat: no-repeat;
+  margin-top: -500px;
+  background-position: center;
+}
+
+.cloud2 {
+  width: 30%;
+  height: 25%;
+  background-image: url("https://newcryptorder.com/img/logos/cloud2.svg");
+  background-repeat: no-repeat;
+  margin-top: -500px;
+  background-position: center;
+}
+
+.cloud1b {
+  width: 30%;
+  height: 25%;
+  background-image: url("https://newcryptorder.com/img/logos/cloud1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.cloud2b {
+  width: 30%;
+  height: 25%;
+  background-image: url("https://newcryptorder.com/img/logos/cloud2.svg");
+  background-repeat: no-repeat;
+  margin-top: -140px;
+  background-position: center;
+}
+
+.character {
+  width: 20%;
+  height: 70%;
+  background-image: url("https://newcryptorder.com/img/logos/RainbowZine01Coverv2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.printmarks {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://newcryptorder.com/img/logos/printmarks.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.psplat {
+  width: 30%;
+  height: 50%;
+  background-image: url("https://newcryptorder.com/img/logos/pinksplat.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -500px;
+}
+
+.ysplat {
+  width: 30%;
+  height: 50%;
+  background-image: url("https://newcryptorder.com/img/logos/yellowsplat.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -500px;
+}
+
+.gsplat {
+  width: 30%;
+  height: 40%;
+  background-image: url("https://newcryptorder.com/img/logos/greensplat.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: -400px;
+}
+
+.bsplat {
+  width: 40%;
+  height: 40%;
+  background-image: url("https://newcryptorder.com/img/logos/bluesplat.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: -500px;
+}
+
+.pop {
+  background-image: url("https://newcryptorder.com/img/logos/splatreader.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.item {
+  width: inherit;
+  height: inherit;
+  background: url('https://newcryptorder.com/img/logos/mask.png') center/contain no-repeat;
+  transform-origin: 40% 100%;
+  padding-bottom: 10%;
+  vertical-align: top;
+  align-items: center;
+  z-index: 0;
+}
+
+
+/* .wrapper {
+  width: 450px;
+  height: 300px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  --background: rgba(255, 255, 255, 0.2); --
+}
+
+.item {
+  width: inherit;
+  height: inherit;
+  background: url('https://newcryptorder.com/img/logos/mask.png') center/contain no-repeat;
+  transform-origin: 5% 100%;
+} */
+
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,11 @@
+{
+    "name":"TMT GENESIS #005",
+    "description":"Genesis Masked.",
+    "image":"ipfs://QmdvYw59qBoYGktVotrDLkUuVyQ8ax5XDUB4foACdi3JV2",
+    "attributes": [
+        {"trait_type":"Mask","value":"Human Golden"},
+        {"trait_type":"Outfit","value":"Puffer Jacket"},
+        {"trait_type":"Accessories","value":"Belt"},
+        {"trait_type":"Background","value":"Black"}
+      ]
+}
